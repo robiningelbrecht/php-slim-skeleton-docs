@@ -9,6 +9,8 @@ slug: /
 
 ## Installation
 
+composer examples:remove
+
 ### What you'll need
 
 ## Up the containers
