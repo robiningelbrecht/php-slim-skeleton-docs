@@ -13,12 +13,10 @@ const config = {
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/logo.png',
-
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: 'robiningelbrecht', // Usually your GitHub org/user name.
   projectName: 'slim-skeleton-ddd-amqp', // Usually your repo name.
-
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
@@ -44,7 +42,6 @@ const config = {
     ],
   ],
   themes: [
-    // ... Your other themes.
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
       {
@@ -60,6 +57,7 @@ const config = {
       docs: {
         sidebar: {
           hideable: false,
+          autoCollapseCategories: true
         },
       },
       navbar: {

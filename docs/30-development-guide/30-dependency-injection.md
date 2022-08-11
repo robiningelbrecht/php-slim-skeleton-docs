@@ -1,7 +1,3 @@
----
-sidebar_position: 40
----
-
 # DI Container
 
 ## PHP-DI
