@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'Slim Framework skeleton',
   tagline: 'An event driven Slim Framework skeleton using AMQP and CQRS',
-  url: 'https://slim-skeleton-ddd-amqp-docs.vercel.app',
+  url: 'https://php-slim-skeleton.robiningelbrecht.be/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
