@@ -15,6 +15,8 @@ slug: /
 
 ## Why?
 
+I was in need of a no-nonsense, intuitive and easy-to-use skeleton to set up new projects.
+
 ## What you'll need
 
 You'll need to have [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/) installed 
