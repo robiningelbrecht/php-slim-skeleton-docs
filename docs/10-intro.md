@@ -7,12 +7,18 @@ slug: /
 
 ![img Slim](/img/banner-header.webp)
 
-![img CI](https://github.com/robiningelbrecht/slim-skeleton-ddd-amqp/actions/workflows/ci.yml/badge.svg)
-
+[![img CI](https://github.com/robiningelbrecht/slim-skeleton-ddd-amqp/actions/workflows/ci.yml/badge.svg)](https://github.com/robiningelbrecht/slim-skeleton-ddd-amqp/actions/workflows/ci.yml)
+[![img codevoc.io](https://codecov.io/gh/robiningelbrecht/php-slim-skeleton/branch/master/graph/badge.svg?token=hgnlFWvWvw)](https://codecov.io/gh/robiningelbrecht/php-slim-skeleton)
+[![img License](https://img.shields.io/github/license/robiningelbrecht/slim-skeleton-ddd-amqp?color=428f7e&logo=open%20source%20initiative&logoColor=white)](https://github.com/robiningelbrecht/slim-skeleton-ddd-amqp/blob/master/LICENSE)
+[![img PHPStan](https://img.shields.io/badge/PHPStan-level%208-succes.svg?logo=php&logoColor=white&color=31C652)](https://phpstan.org/)
+[![img PHP](https://img.shields.io/packagist/php-v/robiningelbrecht/slim-skeleton-ddd-amqp/dev-master?color=%23777bb3&logo=php&logoColor=white)](https://php.net/)
 
 ## Why?
 
 ## What you'll need
+
+You'll need to have [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/) installed 
+to be able to develop and run this skeleton on your local development machine.
 
 ## Installation
 
@@ -50,6 +56,13 @@ docker-compose run --rm php-cli composer example:init
 docker-compose run --rm php-cli bin/console amqp:consume add-vote-command-queue
 ``` 
 
+Now you should be able to navigate to `http://localhost:8080` where you can start exploring the example application:
+
+![img Slim](/img/example-app-vote.webp)
+*Pick your favorite Pokémon*
+![img Slim](/img/example-app-results.webp)
+*Result page of al "votes"*
+
   </TabItem>
   <TabItem value="minimal" label="Minimal">
 
@@ -64,7 +77,9 @@ docker-composer up -d --build
 docker-compose run --rm php-cli composer install
 # Remove example related code
 docker-compose run --rm php-cli composer example:remove
-``` 
+```
+
+Now you should be set to start developing and coding!
 
   </TabItem>
 </Tabs>
