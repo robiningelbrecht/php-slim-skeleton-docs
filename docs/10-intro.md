@@ -61,7 +61,7 @@ Now you should be able to navigate to `http://localhost:8080` where you can star
 ![img Slim](/img/example-app-vote.webp)
 *Pick your favorite Pokémon*
 ![img Slim](/img/example-app-results.webp)
-*Result page of al "votes"*
+*Result page of all "votes"*
 
   </TabItem>
   <TabItem value="minimal" label="Minimal">
