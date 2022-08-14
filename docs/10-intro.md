@@ -1,5 +1,4 @@
 ---
-sidebar_position: 10
 slug: /
 ---
 
@@ -19,14 +18,15 @@ I was in need of a no-nonsense, intuitive and easy-to-use skeleton to set up new
 
 ## What you'll need
 
-You'll need to have [Docker](https://docs.docker.com/get-docker/) and [Docker Compose](https://docs.docker.com/compose/) installed 
-to be able to develop and run this skeleton on your local development machine.
+You'll need to have [Docker](https://docs.docker.com/get-docker/) and
+[Docker Compose](https://docs.docker.com/compose/) installed to be able to develop and run 
+this skeleton on your local development machine. See [Docker setup](/docs/15-docker.md) for more details.
 
 ## Installation
 
 :::caution
 
-Be sure to choose the correct installation profile from the start as it is harder to change it afterwards.
+Be sure to choose the correct installation profile from the start as it can be tedious to change it afterwards.
 
 :::
 
@@ -47,7 +47,7 @@ The **default installation** profile has a complete working example including
 They are there to showcase the possibilities.
 
 ```bash
-composer create-project robiningelbrecht/slim-skeleton-ddd-amqp [app-name] --no-install --ignore-platform-reqs --stability=dev
+composer create-project robiningelbrecht/slim-skeleton-ddd-amqp:dev-master-with-examples [app-name] --no-install --ignore-platform-reqs --stability=dev
 # Build docker containers
 docker-composer up -d --build
 # Install dependencies
@@ -77,8 +77,6 @@ composer create-project robiningelbrecht/slim-skeleton-ddd-amqp [app-name] --no-
 docker-composer up -d --build
 # Install dependencies
 docker-compose run --rm php-cli composer install
-# Remove example related code
-docker-compose run --rm php-cli composer example:remove
 ```
 
 Now you should be set to start developing and coding!
