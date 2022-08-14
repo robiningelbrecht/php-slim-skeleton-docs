@@ -1,6 +1,6 @@
 # Settings
 
-The `config/settings.php` file contains all configuration needed to properly run the application.
+The `./config/settings.php` file contains all configuration needed to properly run the application.
 The values that are start with `$_ENV` are fetched from the `.env` file mentioned in [environment](5-environment.md).
 
 ```php showLineNumbers title="config/settings.php"

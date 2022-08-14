@@ -9,7 +9,7 @@ contains 5 containers. To manage the containers, [Docker Compose](https://docs.d
 
 ## docker-compose.yml
 
-The `docker-compose.yml` file can easily be updated to fit your needs.
+The `./docker-compose.yml` file can easily be updated to fit your needs.
 
 ```yaml showLineNumbers title="docker-compose.yml"
 version: '3.8'
