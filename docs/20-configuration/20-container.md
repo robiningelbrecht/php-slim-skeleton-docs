@@ -1,6 +1,8 @@
 # Container
 
-`./config/container.php` contains the DI container. It already contains following default definitions:
+`./config/container.php` contains the DI container. Most times your classes will be auto-wired, 
+but when [PHP-DI](/docs/30-development-guide/30-dependency-injection.md) is unable to do this, 
+you'll need to add the definition of the class in this file. It already contains following default definitions:
 
 ```php showLineNumbers title="config/container.php"
 return [
@@ -52,6 +54,3 @@ return [
     },
 ];
 ```
-
-Most times your classes will be auto-wired, but when [PHP-DI](/docs/30-development-guide/30-dependency-injection.md) 
-is unable to do this, you'll need to add the definition of this class in this file.
