@@ -2,7 +2,7 @@
 
 There are three `.env` files included. They all have the same parameters but their values can differ.
 
-``` 
+```bash 
 # Possible values "dev", "test" or "production"
 # When set to "production", the DI will be compiled and cached.
 ENVIRONMENT=dev
