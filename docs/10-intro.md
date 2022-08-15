@@ -10,7 +10,7 @@ slug: /
 [![img codevoc.io](https://codecov.io/gh/robiningelbrecht/php-slim-skeleton/branch/master/graph/badge.svg?token=hgnlFWvWvw)](https://codecov.io/gh/robiningelbrecht/php-slim-skeleton)
 [![img License](https://img.shields.io/github/license/robiningelbrecht/slim-skeleton-ddd-amqp?color=428f7e&logo=open%20source%20initiative&logoColor=white)](https://github.com/robiningelbrecht/slim-skeleton-ddd-amqp/blob/master/LICENSE)
 [![img PHPStan](https://img.shields.io/badge/PHPStan-level%208-succes.svg?logo=php&logoColor=white&color=31C652)](https://phpstan.org/)
-[![img PHP](https://img.shields.io/packagist/php-v/robiningelbrecht/slim-skeleton-ddd-amqp/dev-master?color=%23777bb3&logo=php&logoColor=white)](https://php.net/)
+[![img PHP](https://img.shields.io/packagist/php-v/robiningelbrecht/php-slim-skeleton/dev-master?color=%23777bb3&logo=php&logoColor=white)](https://php.net/)
 
 ## Why?
 
