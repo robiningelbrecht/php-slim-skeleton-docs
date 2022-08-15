@@ -4,11 +4,6 @@ The `./config/settings.php` file contains all configuration needed to properly r
 The values that are start with `$_ENV` are fetched from the `.env` file mentioned in [environment](5-environment.md).
 
 ```php showLineNumbers title="config/settings.php"
-<?php
-
-use App\Infrastructure\Environment\Environment;
-use App\Infrastructure\Environment\Settings;
-
 return [
     'slim' => [
         // Returns a detailed page with error details and
