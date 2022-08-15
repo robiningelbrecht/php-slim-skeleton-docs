@@ -47,7 +47,7 @@ The **default installation** profile has a complete working example including
 They are there to showcase the possibilities.
 
 ```bash
-composer create-project robiningelbrecht/slim-skeleton-ddd-amqp:dev-master-with-examples [app-name] --no-install --ignore-platform-reqs --stability=dev
+composer create-project robiningelbrecht/php-slim-skeleton:dev-master-with-examples [app-name] --no-install --ignore-platform-reqs --stability=dev
 # Build docker containers
 docker-composer up -d --build
 # Install dependencies
@@ -72,7 +72,7 @@ The **minimal installation** profile has no examples.
 You should be using this profile if you know what's up and want to start a clean slate.
 
 ```bash
-composer create-project robiningelbrecht/slim-skeleton-ddd-amqp [app-name] --no-install --ignore-platform-reqs --stability=dev
+composer create-project robiningelbrecht/php-slim-skeleton [app-name] --no-install --ignore-platform-reqs --stability=dev
 # Build docker containers
 docker-composer up -d --build
 # Install dependencies
