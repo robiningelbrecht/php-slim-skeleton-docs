@@ -55,7 +55,7 @@ docker-compose run --rm php-cli composer install
 # Initialize example
 docker-compose run --rm php-cli composer example:init
 # Start consuming the voting example queue
-docker-compose run --rm php-cli bin/console amqp:consume add-vote-command-queue
+docker-compose run --rm php-cli bin/console app:amqp:consume add-vote-command-queue
 ``` 
 
 Now you should be able to navigate to `http://localhost:8080` where you can start exploring the example application:

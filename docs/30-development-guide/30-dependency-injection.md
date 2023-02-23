@@ -14,7 +14,6 @@ The full documentation for PHP-DI is available on [https://php-di.org/doc/](http
 - More generally, write code decoupled from the container
 - Type-hint against interfaces, configure which implementation to use in the container's configuration
 
-
 :::
 
 ## Compiler passes
