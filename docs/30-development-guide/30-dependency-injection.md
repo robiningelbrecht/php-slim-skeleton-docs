@@ -6,12 +6,16 @@
 
 The full documentation for PHP-DI is available on [https://php-di.org/doc/](https://php-di.org/doc/).
 
-### Rules for using a container and dependency injection
+:::info
+
+#### Rules for using a container and dependency injection
 
 - Never get an entry from the container directly (always use dependency injection)
 - More generally, write code decoupled from the container
 - Type-hint against interfaces, configure which implementation to use in the container's configuration
 
+
+:::
 
 ## Compiler passes
 
