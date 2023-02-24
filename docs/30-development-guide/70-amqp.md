@@ -2,9 +2,9 @@
 
 ## Rabbit MQ
 
-## Consuming
-
 ## Registering new queues
+
+## Consuming
 
 ## Failed queues
 
