@@ -2,7 +2,9 @@
 
 `./config/routes.php` is the file where you can register routes. The *Slim* documentation contains
 examples on how to create and configure routes:
-[https://www.slimframework.com/docs/v4/objects/routing.html](https://www.slimframework.com/docs/v4/objects/routing.html)
+[https://www.slimframework.com/docs/v4/objects/routing.html](https://www.slimframework.com/docs/v4/objects/routing.html).
+
+Also check [Request handlers](/development-guide/request-handlers) for more detailed information.
 
 
 ```php showLineNumbers title="config/routes.php"
