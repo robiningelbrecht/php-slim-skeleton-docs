@@ -1,6 +1,6 @@
 # Cli config
 
-`./config/cli-config.php` is required for [Doctrine migrations](/docs/30-development-guide/80-migrations.md) 
+`./config/cli-config.php` is required for [Doctrine migrations](/development-guide/migrations) 
 Cli to work. This file does not need any editing, it just has to be there 🥹...
 
 ```php showLineNumbers title="config/cli-config.php"
