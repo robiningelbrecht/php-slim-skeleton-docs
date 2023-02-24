@@ -36,7 +36,23 @@ import TabItem from '@theme/TabItem';
 <Tabs>
   <TabItem value="default" label="Default" default>
 
-The **default installation** profile has a complete working example including
+The **default installation** profile has no examples.
+You should be using this profile if you know what's up and want to start with a clean slate.
+
+```bash
+composer create-project robiningelbrecht/php-slim-skeleton [app-name] --no-install --ignore-platform-reqs --stability=dev
+# Build docker containers
+docker-compose up -d --build
+# Install dependencies
+docker-compose run --rm php-cli composer install
+```
+
+Now you should be set to start developing and coding!
+
+  </TabItem>
+  <TabItem value="full" label="Full">
+
+The **full installation** profile has a complete working example including
 
 * CommandHandlers
 * EventListeners
@@ -64,22 +80,6 @@ Now you should be able to navigate to `http://localhost:8080` where you can star
 *Pick your favorite Pokémon*
 ![img Slim](/img/example-app-results.webp)
 *Result page of all "votes"*
-
-  </TabItem>
-  <TabItem value="minimal" label="Minimal">
-
-The **minimal installation** profile has no examples. 
-You should be using this profile if you know what's up and want to start a clean slate.
-
-```bash
-composer create-project robiningelbrecht/php-slim-skeleton [app-name] --no-install --ignore-platform-reqs --stability=dev
-# Build docker containers
-docker-compose up -d --build
-# Install dependencies
-docker-compose run --rm php-cli composer install
-```
-
-Now you should be set to start developing and coding!
 
   </TabItem>
 </Tabs>
