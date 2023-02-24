@@ -3,7 +3,9 @@
 > Twig, The flexible, fast, and secure template engine for PHP
 
 The template engine of choice for this project is [Twig](https://twig.symfony.com/) and 
-can be used to render anything HTML related.
+can be used to render anything HTML related. If you prefer to use another template engine, 
+just add in to the [container](/configuration/container) and re move the twig entry. You should be good to go.s
+
 
 ## Create a template
 
