@@ -65,7 +65,7 @@ They are there to showcase the possibilities.
 ```bash
 composer create-project robiningelbrecht/php-slim-skeleton:dev-master-with-examples [app-name] --no-install --ignore-platform-reqs --stability=dev
 # Build docker containers
-docker-composer up -d --build
+docker-compose up -d --build
 # Install dependencies
 docker-compose run --rm php-cli composer install
 # Initialize example
